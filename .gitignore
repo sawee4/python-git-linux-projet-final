@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Secrets: never in the repo
+.env
+credentials.json
+
+# Data: large or licensed, never in the repo
+data/raw/
+data/cache/
+*.parquet
+*.sqlite
+*.db
+
+# Logs
+logs/
+*.log
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
